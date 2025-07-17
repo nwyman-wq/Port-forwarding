@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DB_FILE="/tmp/port_tunnels.db"
-SERVER="tunnel.steeldev.space"
+SERVER="tunnel.slashhost.space"
 USER="tunnel"
 
 mkdir -p /tmp
@@ -80,7 +80,7 @@ reset() {
 }
 
 print_help() {
-  echo "🧪 port script helper by steeldev heh!!!"
+  echo "🧪 port script helper by hackerbro heh!!!"
   echo "usage:"
   echo "  port add <port>        add tunnel for local port"
   echo "  port stop <port>       stop 1 tunnel"
